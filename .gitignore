@@ -35,12 +35,22 @@ eslint-report.txt
 jscpd-report/
 coverage/
 
-# Папки збірки Android/iOS (можуть потребувати уточнення залежно від структури)
+# Папки збірки Android/iOS (основного проєкту)
 android/app/build/
 android/build/
 ios/build/
+
+# Папки збірки Android/iOS для підпроєкту/шаблону expo-supabase-starter
+expo-supabase-starter/android/app/build/
+expo-supabase-starter/android/build/
+expo-supabase-starter/ios/build/ # Якщо є iOS частина в шаблоні
+
 # Ігнорувати кеш збірки Android C++ (включаючи ті, що в підпроєктах/шаблонах)
 **/.cxx/
+
+# Ігнорувати згенеровані APK файли
+*.apk
+*.aab
 
 # Старий файл gitignore (який ми перейменували)
 .gitignore.old
