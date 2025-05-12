@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js b/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js
+index 3e68b5d..e3a04fc 100644
+--- a/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js
++++ b/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js
+@@ -9,6 +9,10 @@ function withCss(style) {
+     return style;
+ }
+ function maybeHijackSafeAreaProvider(type) {
++    // u0417u0430u0445u0438u0441u0442 u0432u0456u0434 null u0430u0431u043e undefined
++    if (!type) {
++        return type;
++    }
+     const name = type.displayName || type.name;
+     if (react_native_1.Platform.OS !== "web" && name === "SafeAreaProvider") {
+         safeAreaProviderShim ||= shimFactory(type);

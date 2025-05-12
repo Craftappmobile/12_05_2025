@@ -1,0 +1,15 @@
+{
+  "cli": {
+    "version": ">=3.0.0"
+  },
+  "build": {
+    "android": {
+      "releaseChannel": "default",
+      "workflow": "managed"
+    },
+    "ios": {
+      "releaseChannel": "default",
+      "workflow": "managed"
+    }
+  }
+}

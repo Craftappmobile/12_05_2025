@@ -1,0 +1,33 @@
+/**
+ * Головний компонент додатку "Розрахуй і В'яжи" з повною навігацією
+ * 
+ * @author Команда розробки "Розрахуй і В'яжи"
+ * @created 2025-05-10
+ */
+
+import React from 'react';
+import { AuthProvider, DatabaseProvider } from './src/context';
+import { AppConfigProvider } from './src/utils/AppConfigContext';
+import EnhancedAppNavigator from './src/navigation/EnhancedAppNavigator';
+
+/**
+ * Головний компонент додатку
+ * Обгортає навігатор необхідними контекстами
+ */
+const App: React.FC = () => {
+  return (
+    <AppConfigProvider>
+      <AuthProvider>
+        <DatabaseProvider>
+          <EnhancedAppNavigator />
+        </DatabaseProvider>
+      </AuthProvider>
+    </AppConfigProvider>
+  );
+};
+
+// Встановлюємо displayName для головного компонента
+App.displayName = 'App';
+
+// Експортуємо головний компонент
+export default App;

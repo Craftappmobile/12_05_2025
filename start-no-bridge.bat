@@ -1,0 +1,3 @@
+@echo off
+echo u0417u0430u043fu0443u0441u043a u0434u043eu0434u0430u0442u043au0443 u0431u0435u0437 u0440u0435u0436u0438u043cu0443 Bridgeless...
+npx expo start --no-bridge=false

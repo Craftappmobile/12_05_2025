@@ -1,0 +1,144 @@
+/**
+ * @fileoverview u0415u043au0440u0430u043d u0441u043fu0456u043bu044cu043du043eu0442u0438
+ * 
+ * u0426u0435u0439 u043au043eu043cu043fu043eu043du0435u043du0442 u0432u0456u0434u043eu0431u0440u0430u0436u0430u0454 u0435u043au0440u0430u043d u0441u043fu0456u043bu044cu043du043eu0442u0438 u0437 u043fu043eu0441u0442u0430u043cu0438 u0442u0430 u043eu0431u0433u043eu0432u043eu0440u0435u043du043du044fu043cu0438 u043fu0440u043eu0435u043au0442u0456u0432.
+ * 
+ * @author u041au043eu043cu0430u043du0434u0430 u0440u043eu0437u0440u043eu0431u043au0438 "u0420u043eu0437u0440u0430u0445u0443u0439 u0456 u0412'u044fu0436u0438"
+ * @created 2025-05-06
+ */
+
+import React from 'react';
+import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
+import { Users } from 'lucide-react-native';
+
+/**
+ * u041au043eu043cu043fu043eu043du0435u043du0442 u0435u043au0440u0430u043du0443 u0441u043fu0456u043bu044cu043du043eu0442u0438
+ * 
+ * @returns {React.ReactElement} u041au043eu043cu043fu043eu043du0435u043du0442 u0435u043au0440u0430u043du0443 u0441u043fu0456u043bu044cu043du043eu0442u0438
+ */
+const CommunityScreen: React.FC = () => {
+  return (
+    <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <View style={styles.iconContainer}>
+          <Users size={40} color="#555" />
+        </View>
+        <Text style={styles.headerTitle}>u0421u043fu0456u043bu044cu043du043eu0442u0430 u043cu0430u0439u0441u0442u0440u0456u0432</Text>
+      </View>
+
+      <View style={styles.comingSoon}>
+        <Text style={styles.comingSoonTitle}>u0420u043eu0437u0434u0456u043b u0443 u0440u043eu0437u0440u043eu0431u0446u0456</Text>
+        <Text style={styles.comingSoonText}>
+          u0422u0443u0442 u0431u0443u0434u0435 u0434u043eu0441u0442u0443u043fu043du0430 u0441u043fu0456u043bu044cu043du043eu0442u0430 u043cu0430u0439u0441u0442u0440u0456u0432 u0432'u044fu0437u0430u043du043du044f, u0434u0435 u0432u0438 u0437u043cu043eu0436u0435u0442u0435 u043eu0431u0433u043eu0432u043eu0440u044eu0432u0430u0442u0438 u043fu0440u043eu0435u043au0442u0438, 
+          u0434u0456u043bu0438u0442u0438u0441u044f u0434u043eu0441u0432u0456u0434u043eu043c, u0437u0430u0434u0430u0432u0430u0442u0438 u043fu0438u0442u0430u043du043du044f u0442u0430 u0434u043eu043fu043eu043cu0430u0433u0430u0442u0438 u0456u043du0448u0438u043c.
+        </Text>
+        <Text style={styles.comingSoonText}>
+          u0421u043bu0456u0434u043au0443u0439u0442u0435 u0437u0430 u043eu043du043eu0432u043bu0435u043du043du044fu043cu0438, u0449u043eu0431 u0434u0456u0437u043du0430u0442u0438u0441u044f, u043au043eu043bu0438 u0446u0435u0439 u0440u043eu0437u0434u0456u043b u0441u0442u0430u043du0435 u0434u043eu0441u0442u0443u043fu043du0438u043c.
+        </Text>
+      </View>
+
+      <View style={styles.features}>
+        <Text style={styles.featuresTitle}>u041eu0447u0456u043au0443u0432u0430u043du0456 u0444u0443u043du043au0446u0456u0457:</Text>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>u2022 u041fu043eu0448u0443u043a u043fu0440u043eu0435u043au0442u0456u0432 u0442u0430 u043cu0430u0439u0441u0442u0440u0456u0432</Text>
+        </View>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>u2022 u041eu0431u0433u043eu0432u043eu0440u0435u043du043du044f u0440u043eu0437u0440u0430u0445u0443u043du043au0456u0432 u0442u0430 u043fu0440u043eu0435u043au0442u0456u0432</Text>
+        </View>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>u2022 u041fu0440u044fu043cu0456 u043fu043eu0432u0456u0434u043eu043cu043bu0435u043du043du044f u043cu0456u0436 u043cu0430u0439u0441u0442u0440u0430u043cu0438</Text>
+        </View>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>u2022 u0412u0456u0434u0433u0443u043au0438 u0442u0430 u043eu0446u0456u043du043au0438 u043fu0440u043eu0435u043au0442u0456u0432</Text>
+        </View>
+      </View>
+    </ScrollView>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 24,
+    backgroundColor: '#fff',
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  iconContainer: {
+    backgroundColor: '#f0f0f0',
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 16,
+  },
+  headerTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#333',
+    fontFamily: 'Roboto_Bold',
+  },
+  comingSoon: {
+    backgroundColor: '#fff',
+    margin: 12,
+    borderRadius: 8,
+    padding: 20,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  comingSoonTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 16,
+    fontFamily: 'Roboto_Bold',
+  },
+  comingSoonText: {
+    fontSize: 16,
+    color: '#555',
+    textAlign: 'center',
+    marginBottom: 12,
+    lineHeight: 24,
+    fontFamily: 'Roboto',
+  },
+  features: {
+    backgroundColor: '#fff',
+    margin: 12,
+    borderRadius: 8,
+    padding: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  featuresTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 16,
+    fontFamily: 'Roboto_Bold',
+  },
+  featureItem: {
+    paddingVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  featureText: {
+    fontSize: 16,
+    color: '#555',
+    fontFamily: 'Roboto',
+  },
+});
+
+export default CommunityScreen;

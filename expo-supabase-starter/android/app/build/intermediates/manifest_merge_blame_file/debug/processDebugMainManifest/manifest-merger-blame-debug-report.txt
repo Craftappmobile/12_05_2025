@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anonymous.ExpoSupabaseStarter"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:4:3-75
+11-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:4:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission
+13-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:3:3-77
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:3:20-75
+15        android:maxSdkVersion="32" />
+15-->[:expo-image] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-image\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:9-35
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:5:3-63
+16-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:5:20-61
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:6:3-78
+17-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:6:20-76
+18
+19    <queries>
+19-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:7:3-13:13
+20        <intent>
+20-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:8:5-12:14
+21            <action android:name="android.intent.action.VIEW" />
+21-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:9:7-58
+21-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:9:15-56
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:10:7-67
+23-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:10:17-65
+24
+25            <data android:scheme="https" />
+25-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:11:7-37
+25-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:11:13-35
+26        </intent>
+27        <!-- Query open documents -->
+28        <intent>
+28-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:9-17:18
+29            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+29-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-79
+29-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:21-76
+30        </intent>
+31    </queries>
+32    <!--
+33  Allows Glide to monitor connectivity status and restart failed requests if users go from a
+34  a disconnected to a connected network state.
+35    -->
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[:expo-image] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-image\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:5-79
+36-->[:expo-image] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-image\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:22-76
+37    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+37-->[androidx.biometric:biometric:1.1.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\4ef2059cd0ebb624508061712e97f8e7\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+37-->[androidx.biometric:biometric:1.1.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\4ef2059cd0ebb624508061712e97f8e7\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+38    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+38-->[androidx.biometric:biometric:1.1.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\4ef2059cd0ebb624508061712e97f8e7\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+38-->[androidx.biometric:biometric:1.1.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\4ef2059cd0ebb624508061712e97f8e7\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+39
+40    <permission
+40-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\40705dfb9e52cfc7ccf0b26d901114cc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+41        android:name="com.anonymous.ExpoSupabaseStarter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\40705dfb9e52cfc7ccf0b26d901114cc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\40705dfb9e52cfc7ccf0b26d901114cc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.anonymous.ExpoSupabaseStarter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\40705dfb9e52cfc7ccf0b26d901114cc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\40705dfb9e52cfc7ccf0b26d901114cc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:3-31:17
+47        android:name="com.anonymous.ExpoSupabaseStarter.MainApplication"
+47-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:16-47
+48        android:allowBackup="true"
+48-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:162-188
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.13.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\40705dfb9e52cfc7ccf0b26d901114cc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+50        android:dataExtractionRules="@xml/secure_store_data_extraction_rules"
+50-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:307-376
+51        android:debuggable="true"
+52        android:extractNativeLibs="false"
+53        android:fullBackupContent="@xml/secure_store_backup_rules"
+53-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:248-306
+54        android:icon="@mipmap/ic_launcher"
+54-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:81-115
+55        android:label="@string/app_name"
+55-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:48-80
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:116-161
+57        android:supportsRtl="true"
+57-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:221-247
+58        android:theme="@style/AppTheme"
+58-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:14:189-220
+59        android:usesCleartextTraffic="true" >
+59-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\debug\AndroidManifest.xml:6:18-53
+60        <meta-data
+60-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:15:5-83
+61            android:name="expo.modules.updates.ENABLED"
+61-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:15:16-59
+62            android:value="false" />
+62-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:15:60-81
+63        <meta-data
+63-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:16:5-105
+64            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+64-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:16:16-80
+65            android:value="ALWAYS" />
+65-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:16:81-103
+66        <meta-data
+66-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:17:5-99
+67            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+67-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:17:16-79
+68            android:value="0" />
+68-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:17:80-97
+69
+70        <activity
+70-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:5-30:16
+71            android:name="com.anonymous.ExpoSupabaseStarter.MainActivity"
+71-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:15-43
+72            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
+72-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:44-134
+73            android:exported="true"
+73-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:256-279
+74            android:launchMode="singleTask"
+74-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:135-166
+75            android:screenOrientation="portrait"
+75-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:280-316
+76            android:theme="@style/Theme.App.SplashScreen"
+76-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:210-255
+77            android:windowSoftInputMode="adjustResize" >
+77-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:18:167-209
+78            <intent-filter>
+78-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:19:7-22:23
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:20:9-60
+79-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:20:17-58
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:21:9-68
+81-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:21:19-66
+82            </intent-filter>
+83            <intent-filter>
+83-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:23:7-29:23
+84                <action android:name="android.intent.action.VIEW" />
+84-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:9:7-58
+84-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:9:15-56
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:25:9-67
+86-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:25:19-65
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:10:7-67
+87-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:10:17-65
+88
+89                <data android:scheme="expo-supabase-starter" />
+89-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:11:7-37
+89-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:11:13-35
+90                <data android:scheme="com.anonymous.ExpoSupabaseStarter" />
+90-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:11:7-37
+90-->C:\Users\Admin\myprogect\expo-supabase-starter\android\app\src\main\AndroidManifest.xml:11:13-35
+91            </intent-filter>
+92        </activity>
+93
+94        <provider
+94-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:9-30:20
+95            android:name="expo.modules.filesystem.FileSystemFileProvider"
+95-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-74
+96            android:authorities="com.anonymous.ExpoSupabaseStarter.FileSystemFileProvider"
+96-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:23:13-74
+97            android:exported="false"
+97-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:13-37
+98            android:grantUriPermissions="true" >
+98-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:13-47
+99            <meta-data
+99-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:13-29:70
+100                android:name="android.support.FILE_PROVIDER_PATHS"
+100-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:17-67
+101                android:resource="@xml/file_system_provider_paths" />
+101-->[:expo-file-system] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:17-67
+102        </provider>
+103
+104        <meta-data
+104-->[:expo-modules-core] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-11:89
+105            android:name="org.unimodules.core.AppLoader#react-native-headless"
+105-->[:expo-modules-core] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-79
+106            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+106-->[:expo-modules-core] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-86
+107        <meta-data
+107-->[:expo-modules-core] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-15:45
+108            android:name="com.facebook.soloader.enabled"
+108-->[:expo-modules-core] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:13-57
+109            android:value="true" />
+109-->[:expo-modules-core] C:\Users\Admin\myprogect\expo-supabase-starter\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:13-33
+110
+111        <activity
+111-->[com.facebook.react:react-android:0.76.7] C:\Users\Admin\.gradle\caches\8.10.2\transforms\d1ab2155b539508f564b7247055e2db0\transformed\react-android-0.76.7-debug\AndroidManifest.xml:19:9-21:40
+112            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+112-->[com.facebook.react:react-android:0.76.7] C:\Users\Admin\.gradle\caches\8.10.2\transforms\d1ab2155b539508f564b7247055e2db0\transformed\react-android-0.76.7-debug\AndroidManifest.xml:20:13-77
+113            android:exported="false" />
+113-->[com.facebook.react:react-android:0.76.7] C:\Users\Admin\.gradle\caches\8.10.2\transforms\d1ab2155b539508f564b7247055e2db0\transformed\react-android-0.76.7-debug\AndroidManifest.xml:21:13-37
+114
+115        <meta-data
+115-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\682c500bce2ea8db4ad15f6c7d692950\transformed\okhttp3-integration-4.11.0\AndroidManifest.xml:11:9-13:43
+116            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+116-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\682c500bce2ea8db4ad15f6c7d692950\transformed\okhttp3-integration-4.11.0\AndroidManifest.xml:12:13-84
+117            android:value="GlideModule" />
+117-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\682c500bce2ea8db4ad15f6c7d692950\transformed\okhttp3-integration-4.11.0\AndroidManifest.xml:13:13-40
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+121            android:authorities="com.anonymous.ExpoSupabaseStarter.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8b8c13468dc93c1a8a0310b3ad9efb\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8c7e2423c35f116a26635b71420bb9\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8c7e2423c35f116a26635b71420bb9\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Admin\.gradle\caches\8.10.2\transforms\3d8c7e2423c35f116a26635b71420bb9\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+131                android:value="androidx.startup" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+132        </provider>
+133
+134        <receiver
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+135            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+136            android:directBootAware="false"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+137            android:enabled="true"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+138            android:exported="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+139            android:permission="android.permission.DUMP" >
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+141                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+144                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+147                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+150                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.10.2\transforms\e549a10ccce320d7ff308cc222b14328\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+151            </intent-filter>
+152        </receiver>
+153    </application>
+154
+155</manifest>

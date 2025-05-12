@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js b/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js
+index fce9901..1ce30ee 100644
+--- a/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js
++++ b/node_modules/react-native-css-interop/dist/runtime/third-party-libs/react-native-safe-area-context.native.js
+@@ -6,7 +6,7 @@ exports.maybeHijackSafeAreaProvider = void 0;
+var react_native_1 = require("react-native");
+var react_native_safe_area_context_1 = require("react-native-safe-area-context");
+function maybeHijackSafeAreaProvider(type) {
+-    if (type.displayName === "SafeAreaProvider" || (type.render && type.render.displayName === "SafeAreaProvider")) {
++    if ((type && type.displayName === "SafeAreaProvider") || (type && type.render && type.render.displayName === "SafeAreaProvider")) {
+        return function (props) {
+            var node = react_native_1.StyleSheet.compose(
+                react_native_1.StyleSheet.absoluteFill, {
