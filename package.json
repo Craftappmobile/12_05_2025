@@ -31,7 +31,7 @@
     "@react-native-community/netinfo": "^11.4.1",
     "@react-native-picker/picker": "^2.9.0",
     "@react-navigation/drawer": "^7.1.1",
-    "@supabase/supabase-js": "^2.46.1",
+    "@supabase/supabase-js": "^2.49.4",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "ajv-keywords": "^5.1.0",
