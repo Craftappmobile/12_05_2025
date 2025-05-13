@@ -25,4 +25,4 @@ jobs:
         run: npx supabase login --token ${{ secrets.service_rolesecret }} # <-- Цей рядок змінено
 
       - name: Generate types from Supabase
-        run: npx supabase gen types typescript --project-id ejhwtgkublavsnmdibfv --schema public > supabase-types.ts
+        run: npx supabase gen types typescript --project-id fskbjzwqvxrnsskkkpgq --schema public > supabase-types.ts # <-- Project ID виправлено тут
